@@ -1,9 +1,13 @@
-# Mini_Car_Game
+The provided code is a basic car racing game implemented in C++. It utilizes the graphics.h library to create a graphical interface where players control a car on a road. The objective of the game is to navigate the car through the lanes, avoiding collisions with traffic cars while trying to achieve the highest score possible.
 
-In this Car game the player needs to protect his/her car from the cars coming towards the car. Every time the car dodges 2 points are allocated to the player. The game comes to an end when the player reaches 50 points. This Car game project is written in C++ language with the concepts of Object-Oriented Programming.
+Key features of the game include:
 
-The program includes four main functions such as 
-void car- This function is the player’s car.
-void control-   This function controls the movement of the car. 
-void road- This function creates the endpoints for the car so that it    cannot go out of the road.
-void traffic- This function controls the other cars which are proceeding towards the player.
+1. Player Control: The player can control the car using the arrow keys on the keyboard, allowing them to move up, down, left, or right on the road.
+
+2. Traffic Cars: Randomly generated traffic cars move vertically downwards on the road. The player needs to avoid colliding with these cars to progress in the game.
+
+3. Scoring: The game keeps track of the player's score, which increases as they successfully navigate past traffic cars without collisions. The score is displayed on the screen.
+
+4. Graphics and Sound: The game provides a basic graphical representation of the car, road, and traffic cars using simple shapes. Sound effects are also used to enhance the gaming experience.
+
+It's important to note that the provided code uses the graphics.h library, which is specific to the Turbo C++ compiler and the DOS environment. To run this code, you would need a compatible development environment or consider migrating the code to a modern graphics library supported by your chosen programming language.
